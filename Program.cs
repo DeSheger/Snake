@@ -1,12 +1,4 @@
-﻿using System;
-
-using System.Collections.Generic;
-
-using System.Linq;
-
-using System.Threading;
-
-
+﻿using Snake;
 
 class Program
 
@@ -297,37 +289,5 @@ class Program
         }
 
     }
-
-}
-
-
-
-public class Pixel
-
-{
-
-    public int xPos { get; set; }
-
-    public int yPos { get; set; }
-
-    public ConsoleColor schermKleur { get; set; }
-
-    public string karacter { get; set; }
-
-}
-
-
-
-public class Obstakel
-
-{
-
-    public int Xpos { get; set; }
-
-    // ?
-
-    public ConsoleColor schermKleur { get; set; }
-
-    public string karacter { get; set; }
 
 }
